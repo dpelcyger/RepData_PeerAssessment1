@@ -1,5 +1,6 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
+<<<<<<< HEAD
 author: "David Pelcyger"
 date: "January 6, 2017"
 output: html_document
@@ -184,3 +185,28 @@ wkend_interval <- aggregate(steps ~ interval, weekend, mean, na.rm=TRUE)
 ##plot the average interval graph for weekends
 plot(wkend_interval$steps ~ wkend_interval$interval, type="l", xlab="Weekend 5-min Interval", ylab="Average Steps")
 ```
+=======
+output: 
+  html_document:
+    keep_md: true
+---
+
+
+## Loading and preprocessing the data
+
+
+
+## What is mean total number of steps taken per day?
+
+
+
+## What is the average daily activity pattern?
+
+
+
+## Imputing missing values
+
+
+
+## Are there differences in activity patterns between weekdays and weekends?
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
